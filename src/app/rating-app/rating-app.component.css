@@ -1,0 +1,44 @@
+.body {
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    height: 650px;
+    margin-top: 1%;
+    background-color: rgba(204, 204, 204, 0.533);
+    box-shadow: 0 10px 15px 5px rgba(251, 255, 0, 0.3);
+    border: 2px solid rgb(194, 165, 0);
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(238, 255, 0);
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.product1 {
+    width: 50%;
+}
+
+.img1 {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    width: 100%;
+    font-size: 17px;
+}
+
+.rateNum {
+    font-size: 19px;
+}
+
+.star {
+    font-size: 45px;
+    color: #000000;
+}
+
+.filled {
+    color: #00d60b;
+}

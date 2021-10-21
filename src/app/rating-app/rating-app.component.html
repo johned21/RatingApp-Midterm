@@ -1,0 +1,134 @@
+<div class="body">
+    <h1>Best Phones for 2021</h1>
+    <div class="container">
+
+        <ngb-accordion [closeOthers]="true" activeIds="static-1">
+            <ngb-panel id="static-1" title="Product 1">
+
+                <ng-template ngbPanelContent>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="../assets/img/realme phone.png" class="img1" alt="..." />
+                            <h5>Realme GT Master Edition</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <p>
+                                The Realme GT 5G Master Edition is set to launch in India on August 18th alongside the Realme GT flagship. The Realme GT Master Edition features a 6.4-inch FHD+ Super AMOLED display with a 120Hz refresh rate, Snapdragon 778 chipset paired with 8GB RAM,
+                                and 256GB internal storage. The device comes with a 64MP triple camera system and a 4,300mAh battery that supports 65W fast charging. The Realme GT flagship model is similar to the Master Edition, except the chipset is
+                                the high-end Snapdragon 888.
+                            </p>
+                            <hr>
+                            <ngb-rating [max]="5" [(rate)]="currentRate1" class="rate">
+                                <ng-template let-fill="fill" let-index="index">
+                                    <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                                </ng-template>
+                            </ngb-rating>
+
+                            <pre class="rateNum">Rate: <b>{{currentRate1}} of 5</b></pre>
+
+                        </div>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+            <ngb-panel id="static-2" title="Product 2">
+                <ng-template ngbPanelContent>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="../assets/img/Xiaomi Phone.png" class="img1" alt="..." />
+                            <h5>Xiaomi 11T Pro </h5>
+                        </div>
+                        <div class="col-md-9">
+                            <p>
+                                Xiaomi 11T Pro mobile was launched on 15th September 2021. The phone comes with a 6.67-inch touchscreen display with a resolution of 1080x2400 pixels and an aspect ratio of 20:9. Xiaomi 11T Pro is powered by an octa-core Qualcomm Snapdragon 888 processor.
+                                It comes with 8GB of RAM. The Xiaomi 11T Pro runs Android 11 and is powered by a 5000mAh battery. The Xiaomi 11T Pro supports proprietary fast charging.
+                            </p>
+                            <hr>
+                            <ngb-rating [max]="5" [(rate)]="currentRate2" class="rate">
+                                <ng-template let-fill="fill" let-index="index">
+                                    <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                                </ng-template>
+                            </ngb-rating>
+                            <pre class="rateNum">Rate: <b>{{currentRate2}} of 5</b></pre>
+
+                        </div>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+            <ngb-panel id="static-3" title="Product 3">
+                <ng-template ngbPanelContent>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="../assets/img/Huawei Phone.png" class="img1" alt="..." />
+                            <h5>Huawei P30 Pro</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <p>
+                                The Huawei P30 Pro is the best Huawei phone you can buy right now. It's also one of the best phone we've used when it comes to photography, with the cameras being the P30 Pro's real party piece, providing staggeringly good 5x and 10x zoom, and a digital
+                                50x zoom with gets you insanely close to objects far off in the distance. Its low-light capabilities are also top-notch.
+                            </p>
+                            <hr>
+                            <ngb-rating [max]="5" [(rate)]="currentRate3" class="rate">
+                                <ng-template let-fill="fill" let-index="index">
+                                    <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                                </ng-template>
+                            </ngb-rating>
+                            <pre class="rateNum">Rate: <b>{{currentRate3}} of 5</b></pre>
+
+                        </div>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+            <ngb-panel id="static-4" title="Product 4">
+                <ng-template ngbPanelContent>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="../assets/img/Iphone13.png" class="img1" alt="..." />
+                            <h5>Iphone 13</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <p>
+                                Introduced on September 14, the iPhone 13 and iPhone 13 mini are Apple's newest flagship iPhones on the more affordable end, and are being sold alongside the more expensive iPhone 13 Pro and iPhone 13 Pro Max. The iPhone 13 and iPhone 13 mini are ideal
+                                for those who don't need pro-level camera features.
+                            </p>
+                            <hr>
+                            <ngb-rating [max]="5" [(rate)]="currentRate4" class="rate">
+                                <ng-template let-fill="fill" let-index="index">
+                                    <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                                </ng-template>
+                            </ngb-rating>
+                            <pre class="rateNum">Rate: <b>{{currentRate4}} of 5</b></pre>
+
+                        </div>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+            <ngb-panel id="static-5" title="Product 5">
+                <ng-template ngbPanelContent>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="../assets/img/Samsung Phone.png" class="img1" alt="..." />
+                            <h5>Samsung Galaxy Note 20 Ultra 5G</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <p>
+                                The Note 20 Ultra 5G launched in the fall of 2020, but since then we have seen the S20 Ultra 5G and Z Fold 3 launch with S Pen support. Rumors indicate a fall 2021 Note device may not appear and the Note 20 Ultra 5G may indeed be the last in the Note
+                                series. If you are a fan of the stylus and want one that has an embedded silo to carry the S Pen at all times, then this is the phone for you. There are some great trade-in offers for the phone, but the regular price remains
+                                at $1,199.99.
+                            </p>
+                            <hr>
+                            <ngb-rating [max]="5" [(rate)]="currentRate5" class="rate">
+                                <ng-template let-fill="fill" let-index="index">
+                                    <span class="star" [class.filled]="fill === 100">&#9733;</span>
+                                </ng-template>
+                            </ngb-rating>
+                            <pre class="rateNum">Rate: <b>{{currentRate5}} of 5</b></pre>
+
+                        </div>
+                    </div>
+                </ng-template>
+            </ngb-panel>
+        </ngb-accordion>
+
+    </div>
+
+</div>
